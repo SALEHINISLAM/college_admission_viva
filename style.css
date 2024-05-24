@@ -1,0 +1,62 @@
+#mainoption{
+    position: relative;
+    top: 5rem;
+}
+#mainoption img{
+    height: 15rem;
+    width: 15rem;
+    padding: 2px;
+}
+main{
+    margin: 1rem;
+}
+.card{
+    text-align: center;
+    /* align-content: center;
+    align-self: center; */
+    align-items: center;
+    flex: 1 0 auto;
+}
+.card-deck{
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-text{
+    font-family: "Galada",cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+footer{
+    margin-top: 7rem;
+    padding-top: 1rem;
+}
+a{
+    text-decoration: none;
+}
+.white{
+    color: white;
+}
+
+/* dark-mode.css */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Adjust other elements for dark mode */
+header.dark-mode {
+    background-color: #1e1e1e;
+}
+
+nav.dark-mode a {
+    color: #ffffff;
+}
+
+footer.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Add more styles as needed */
+

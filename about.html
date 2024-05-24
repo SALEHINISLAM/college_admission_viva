@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coolege Admission Viva</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="mode.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><b>College Admission Viva</b></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">College Admission Viva</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Colleges
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="ndc.html">Noter Dame College</a></li>
+                        <li><a class="dropdown-item" href="sjc.html">St. Joseph Higher Secondary School</a></li>
+                        <li><a class="dropdown-item" href="hcc.html">Holy Cross College</a></li>
+                        <li><a class="dropdown-item" href="sgc.html">St. Gregory's High School and College</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Share Your Viba Experience</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main style="margin: 1rem;">
+        <h3>
+            আমাদের সম্পর্কে
+        </h3>
+        <p>
+            আমরা যারা এস এস সি পাশ করে বের হয়েছি তাদের সকলেরই একটা আইডেন্টিটি ক্রাইসিস থাকে। এতদিন তো অমুক স্কুলে ছিলাম এখন কোথায় যাব । মনের গভীরে একটা সুপ্ত বাসনা থাকে একটা ভালো কলেজে পড়ব কিন্তু হবে কি সেই ইচ্ছে পূরণ?- এই ভয়ে দিন যায় রাত আসে । ভালো একটা কলেজে চান্স পাবার জন্য তোমরা অনেকেই অনেক জায়গায় বা কোচিংএ পড়াশোনা করছ । সেখানে হয়ত লিখিত পরীক্ষার জন্য যথেষ্ট প্রস্তুতির ব্যাবস্থা থাকে কিন্তু ভাইবা নিয়ে তেমন একটা দেখা যায় না। আর ছেলেবেলা থেকে খুব বেশি ভাইবা দেয়া হয় না আমাদের কারোরই তাই মৌখিক পরীক্ষা বা ভাইবার কথা শুনলেই আমাদের গলা শুকিয়ে যায়। </br>
+                যদি এমন হত যে ঐ সব জায়গায় চান্স পাওয়া বা ভাইবার সম্মুখীন হওয়া সিনিয়রদের অভিজ্ঞতা জানা যায় তবে তোমাদের এই ভাইবা ভীতি সহজেই দূর হবে। তোমরাও সেই অনুসারে প্রস্তুত হতে পারবে। 
+        </p>
+    </main>
+    <section style="align-items: center;margin: 1rem;position: fixed;z-index: 1; top: 3rem; right: 0;">
+        <!-- <button id="dark-mode-toggle" style="padding: auto; font-size: 16px; background-color: #007BFF; color: #ffffff; border: none; cursor: pointer;"></button> -->
+        <button class="mode" id="dark-mode-toggle" style="--clr:#39FF14"><span>Dark</span><i></i></button>
+    </section>
+            <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    
+        <!-- Section: Links  -->
+        <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>College Admission Viva
+                </h6>
+                <p>
+                    কলেজ ভর্তি পরিক্ষায় ভাইবা অভিজ্ঞতা শেয়ারিং প্লাটফর্ম
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                Menu
+                </h6>
+                <p>
+                <a href="index.html" class="text-reset">Home</a>
+                </p>
+                <p>
+                <a href="about.html" class="text-reset">About</a>
+                </p>
+                <p>
+                <a href="index.html" class="text-reset">Colleges</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Share your Viva Experience</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                <i class="fas fa-envelope me-3"></i>
+                note.salehin@gmail.com
+                </p>
+            </div>
+            <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        </section>
+        <!-- Section: Links  -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-4 white" style="background-color: rgba(0, 0, 0, 0.5);">
+        © Copyright:
+        <a class="text-reset fw-bold white" href="index.html">College Admission Viva</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
