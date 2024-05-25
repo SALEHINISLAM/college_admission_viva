@@ -2,3 +2,10 @@ main{
     font-family: "Atma", system-ui;
     font-size: large;
 }
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* z-index: 0; */
+  }
